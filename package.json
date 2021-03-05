@@ -1,6 +1,6 @@
 {
-  "name": "laravel-passport-session-store",
-  "version": "1.0.0",
+  "name": "@malows/laravel-passport-session-store",
+  "version": "1.0.1",
   "description": "Laravel passport session store",
   "main": "dist/index.js",
   "homepage": "https://github.com/Malows/laravel-passport-session-store",
