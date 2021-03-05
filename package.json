@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Laravel passport session store",
   "main": "dist/index.js",
+  "private": false,
   "homepage": "https://github.com/Malows/laravel-passport-session-store",
   "repository": {
     "type": "git",
