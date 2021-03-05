@@ -11,6 +11,7 @@ export default function (context = {
     oauthURI: '/oauth/token'
 }) {
     return {
+        namespaced: true,
         state,
         actions: makeActions(context),
         mutations: makeMutations(context),
