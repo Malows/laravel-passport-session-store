@@ -1,0 +1,18 @@
+{
+  "name": "laravel-passport-session-store",
+  "version": "1.0.0",
+  "description": "Laravel passport session store",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js --target=es2017 --tsconfig=tsconfig.json --minify --format=esm --external:date-fns",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.19.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.56"
+  }
+}
